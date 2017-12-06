@@ -1,0 +1,6 @@
+LEDE Reboot r5442-b0b289ea45 / 2017-12-02 07:35
+---
+main      2017-11-30 b0b289e curl: bump to 7.57.0 (3 CVEs)
+luci      2017-11-24 802d5b6 luci-app-attendedsysupgrade: use rpc-sys
+packages  2017-12-01 a841e34 Merge pull request #5139 from lynxis/rb_o
+routing   2017-10-02 0d1c5f7 Merge pull request #325 from ecsv/batadv-
