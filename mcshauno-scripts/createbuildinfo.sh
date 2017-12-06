@@ -45,7 +45,7 @@ cp .config.init $TFile.config.init
 scripts/diffconfig.sh > $TFile.diffconfig 2>/dev/null
 
 # copy buildroot creation script and patch timestamp info
-cp hnscripts/newBuildroot.sh $TFile-newBuildroot.sh
+cp mcshauno-scripts/newBuildroot.sh $TFile-newBuildroot.sh
 sed -i "s/^FILESTAMP=.*/FILESTAMP=$Device-$VersTime/" $TFile-newBuildroot.sh
 
 # cleanup checksum files
